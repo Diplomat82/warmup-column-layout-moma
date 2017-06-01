@@ -1,0 +1,43 @@
+*{
+   box-sizing: border-box;
+}
+
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", "serif";
+}
+/*General site styles + general classes*/
+
+
+.major-moma-container{
+	width: 768px;
+	margin: 0 auto;
+  border: 10px solid: #ddd;
+  display: flex;
+}
+
+
+.major-column{
+  padding: 10px
+  flex: 33.33333%;
+  border: 10px solid #ddd
+}
+
+
+
+.mini-column-container{
+  display: flex;
+}
+
+.text-column{
+  flex-basis: 50%auto;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.img-column{
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
